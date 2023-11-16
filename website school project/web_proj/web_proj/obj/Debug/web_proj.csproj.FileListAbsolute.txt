@@ -1,0 +1,222 @@
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\web_proj.dll.config
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\web_proj.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\web_proj.pdb
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\csc.exe
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\csc.exe.config
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\csc.rsp
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\csi.exe
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\csi.exe.config
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\csi.rsp
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.AppContext.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Collections.Immutable.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Console.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Globalization.Calendars.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.IO.Compression.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.IO.FileSystem.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Net.Http.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Net.Sockets.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Reflection.Metadata.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.ValueTuple.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Xml.XPath.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\vbc.exe
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\vbc.exe.config
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\vbc.rsp
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\VBCSCompiler.exe
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\roslyn\VBCSCompiler.exe.config
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\Antlr3.Runtime.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\AspNet.ScriptManager.jQuery.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\Microsoft.Web.Infrastructure.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\Newtonsoft.Json.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\System.Web.Optimization.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\WebGrease.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\System.Web.Optimization.xml
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\Newtonsoft.Json.xml
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\Antlr3.Runtime.pdb
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\obj\Debug\web_proj.csprojAssemblyReference.cache
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\obj\Debug\web_proj.csproj.CoreCompileInputs.cache
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\obj\Debug\web_proj.csproj.CopyComplete
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\obj\Debug\web_proj.dll
+D:\Users\דניאל צימקובסקי\Desktop\progects- codding\web_proj\web_proj\obj\Debug\web_proj.pdb
+F:\web_proj\web_proj\bin\web_proj.dll.config
+F:\web_proj\web_proj\bin\web_proj.dll
+F:\web_proj\web_proj\bin\web_proj.pdb
+F:\web_proj\web_proj\bin\roslyn\csc.exe
+F:\web_proj\web_proj\bin\roslyn\csc.exe.config
+F:\web_proj\web_proj\bin\roslyn\csc.rsp
+F:\web_proj\web_proj\bin\roslyn\csi.exe
+F:\web_proj\web_proj\bin\roslyn\csi.exe.config
+F:\web_proj\web_proj\bin\roslyn\csi.rsp
+F:\web_proj\web_proj\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\web_proj\web_proj\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\web_proj\web_proj\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\web_proj\web_proj\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\web_proj\web_proj\bin\roslyn\Microsoft.Managed.Core.targets
+F:\web_proj\web_proj\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\web_proj\web_proj\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\web_proj\web_proj\bin\roslyn\System.AppContext.dll
+F:\web_proj\web_proj\bin\roslyn\System.Collections.Immutable.dll
+F:\web_proj\web_proj\bin\roslyn\System.Console.dll
+F:\web_proj\web_proj\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\web_proj\web_proj\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\web_proj\web_proj\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\web_proj\web_proj\bin\roslyn\System.Globalization.Calendars.dll
+F:\web_proj\web_proj\bin\roslyn\System.IO.Compression.dll
+F:\web_proj\web_proj\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\web_proj\web_proj\bin\roslyn\System.IO.FileSystem.dll
+F:\web_proj\web_proj\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\web_proj\web_proj\bin\roslyn\System.Net.Http.dll
+F:\web_proj\web_proj\bin\roslyn\System.Net.Sockets.dll
+F:\web_proj\web_proj\bin\roslyn\System.Reflection.Metadata.dll
+F:\web_proj\web_proj\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\web_proj\web_proj\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\web_proj\web_proj\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\web_proj\web_proj\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\web_proj\web_proj\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\web_proj\web_proj\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\web_proj\web_proj\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\web_proj\web_proj\bin\roslyn\System.ValueTuple.dll
+F:\web_proj\web_proj\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\web_proj\web_proj\bin\roslyn\System.Xml.XmlDocument.dll
+F:\web_proj\web_proj\bin\roslyn\System.Xml.XPath.dll
+F:\web_proj\web_proj\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\web_proj\web_proj\bin\roslyn\vbc.exe
+F:\web_proj\web_proj\bin\roslyn\vbc.exe.config
+F:\web_proj\web_proj\bin\roslyn\vbc.rsp
+F:\web_proj\web_proj\bin\roslyn\VBCSCompiler.exe
+F:\web_proj\web_proj\bin\roslyn\VBCSCompiler.exe.config
+F:\web_proj\web_proj\bin\Antlr3.Runtime.dll
+F:\web_proj\web_proj\bin\AspNet.ScriptManager.bootstrap.dll
+F:\web_proj\web_proj\bin\AspNet.ScriptManager.jQuery.dll
+F:\web_proj\web_proj\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\web_proj\web_proj\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\web_proj\web_proj\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\web_proj\web_proj\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\web_proj\web_proj\bin\Microsoft.ScriptManager.WebForms.dll
+F:\web_proj\web_proj\bin\Microsoft.Web.Infrastructure.dll
+F:\web_proj\web_proj\bin\Newtonsoft.Json.dll
+F:\web_proj\web_proj\bin\System.Web.Optimization.dll
+F:\web_proj\web_proj\bin\WebGrease.dll
+F:\web_proj\web_proj\bin\System.Web.Optimization.xml
+F:\web_proj\web_proj\bin\Newtonsoft.Json.xml
+F:\web_proj\web_proj\bin\Antlr3.Runtime.pdb
+F:\web_proj\web_proj\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\web_proj\web_proj\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\web_proj\web_proj\obj\Debug\web_proj.csprojAssemblyReference.cache
+F:\web_proj\web_proj\obj\Debug\web_proj.csproj.CoreCompileInputs.cache
+F:\web_proj\web_proj\obj\Debug\web_proj.csproj.CopyComplete
+F:\web_proj\web_proj\obj\Debug\web_proj.dll
+F:\web_proj\web_proj\obj\Debug\web_proj.pdb
+E:\web_proj\web_proj\bin\web_proj.dll.config
+E:\web_proj\web_proj\bin\web_proj.dll
+E:\web_proj\web_proj\bin\web_proj.pdb
+E:\web_proj\web_proj\bin\roslyn\csc.exe
+E:\web_proj\web_proj\bin\roslyn\csc.exe.config
+E:\web_proj\web_proj\bin\roslyn\csc.rsp
+E:\web_proj\web_proj\bin\roslyn\csi.exe
+E:\web_proj\web_proj\bin\roslyn\csi.exe.config
+E:\web_proj\web_proj\bin\roslyn\csi.rsp
+E:\web_proj\web_proj\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\web_proj\web_proj\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\web_proj\web_proj\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\web_proj\web_proj\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\web_proj\web_proj\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\web_proj\web_proj\bin\roslyn\Microsoft.Managed.Core.targets
+E:\web_proj\web_proj\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\web_proj\web_proj\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\web_proj\web_proj\bin\roslyn\System.AppContext.dll
+E:\web_proj\web_proj\bin\roslyn\System.Collections.Immutable.dll
+E:\web_proj\web_proj\bin\roslyn\System.Console.dll
+E:\web_proj\web_proj\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\web_proj\web_proj\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\web_proj\web_proj\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\web_proj\web_proj\bin\roslyn\System.Globalization.Calendars.dll
+E:\web_proj\web_proj\bin\roslyn\System.IO.Compression.dll
+E:\web_proj\web_proj\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\web_proj\web_proj\bin\roslyn\System.IO.FileSystem.dll
+E:\web_proj\web_proj\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\web_proj\web_proj\bin\roslyn\System.Net.Http.dll
+E:\web_proj\web_proj\bin\roslyn\System.Net.Sockets.dll
+E:\web_proj\web_proj\bin\roslyn\System.Reflection.Metadata.dll
+E:\web_proj\web_proj\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\web_proj\web_proj\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\web_proj\web_proj\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\web_proj\web_proj\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\web_proj\web_proj\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\web_proj\web_proj\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\web_proj\web_proj\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\web_proj\web_proj\bin\roslyn\System.ValueTuple.dll
+E:\web_proj\web_proj\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\web_proj\web_proj\bin\roslyn\System.Xml.XmlDocument.dll
+E:\web_proj\web_proj\bin\roslyn\System.Xml.XPath.dll
+E:\web_proj\web_proj\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\web_proj\web_proj\bin\roslyn\vbc.exe
+E:\web_proj\web_proj\bin\roslyn\vbc.exe.config
+E:\web_proj\web_proj\bin\roslyn\vbc.rsp
+E:\web_proj\web_proj\bin\roslyn\VBCSCompiler.exe
+E:\web_proj\web_proj\bin\roslyn\VBCSCompiler.exe.config
+E:\web_proj\web_proj\bin\Antlr3.Runtime.dll
+E:\web_proj\web_proj\bin\AspNet.ScriptManager.bootstrap.dll
+E:\web_proj\web_proj\bin\AspNet.ScriptManager.jQuery.dll
+E:\web_proj\web_proj\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\web_proj\web_proj\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\web_proj\web_proj\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\web_proj\web_proj\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\web_proj\web_proj\bin\Microsoft.ScriptManager.WebForms.dll
+E:\web_proj\web_proj\bin\Microsoft.Web.Infrastructure.dll
+E:\web_proj\web_proj\bin\Newtonsoft.Json.dll
+E:\web_proj\web_proj\bin\System.Web.Optimization.dll
+E:\web_proj\web_proj\bin\WebGrease.dll
+E:\web_proj\web_proj\bin\System.Web.Optimization.xml
+E:\web_proj\web_proj\bin\Newtonsoft.Json.xml
+E:\web_proj\web_proj\bin\Antlr3.Runtime.pdb
+E:\web_proj\web_proj\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\web_proj\web_proj\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\web_proj\web_proj\obj\Debug\web_proj.csprojAssemblyReference.cache
+E:\web_proj\web_proj\obj\Debug\web_proj.csproj.CoreCompileInputs.cache
+E:\web_proj\web_proj\obj\Debug\web_proj.csproj.CopyComplete
+E:\web_proj\web_proj\obj\Debug\web_proj.dll
+E:\web_proj\web_proj\obj\Debug\web_proj.pdb

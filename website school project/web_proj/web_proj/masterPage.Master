@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.master.cs" Inherits="web_proj.masterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>הסרטים והסדרות</title>
+    <link href="Styles/stylesheet.css" rel="stylesheet" />
+    
+
+    <script type="text/javascript" language="javascript" >
+        var myVar = setInterval(function () { myTimer() }, 500);
+        function myTimer()
+        {
+            var d = new Date();
+            var t = d.toLocaleTimeString();
+            document.getElementById("myTime").innerHTML = t;
+        }
+    </script>
+    <style>
+        td{font-size:25px;text-align:center}
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <table id ="container" cellpadding="15" cellspacing="2" border="0">
+        <tr style ="height: 70px;" class="skyblue">
+            <td style="width: 200px;text-align:center">
+                <%= loginMsg %>
+            </td>
+
+            <td style="width: 800px">
+                <img style="width:100%" src="photos/logo2.png" />
+            </td>
+
+            <td style ="width: 200px; text-align: center;">
+                <h3 id ="myTime"> </h3>
+            </td>
+        </tr>
+
+        <tr class="skyblue">
+            <td colspan="3" style="text-align:center">
+                <a href="mainpage1.aspx"><img class="button" src="photos/homepage.png" /></a>
+                <a href="Movies.aspx"><img class="button" src="photos/sratim.png" /></a>
+                <a href="series.aspx"><img class="button" src="photos/sdarot.png" /></a>
+            </td>
+        </tr>
+
+        <tr style="height:400px;">
+            <td colspan="3" valign="top" style="background-color:#fe8200;width:110%">
+                <center>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder> 
+                </center>
+            </td>
+        </tr>
+        <tr>
+
+            <td colspan="2" align="center";class="skyblue">
+                נכתב על ידי <a href ="mailto:danialzimk@gmail.com">דניאל צימקובסקי</a>
+            </td>
+
+        </tr>
+
+    </table>
+
+            
+
+</body>
+</html>

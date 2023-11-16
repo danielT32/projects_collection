@@ -1,0 +1,54 @@
+﻿body
+{
+    background-image: url('../photos/cinema2.jpg');
+    direction: rtl;
+    font-size: 50px;
+    color: lightyellow;
+}
+
+div
+{
+    font-size:25px;
+    font-style:initial
+}
+
+td {
+    font-size: 25px;
+    text-align: center
+}
+
+a
+{ 
+    color:lightskyblue;
+}
+
+.skyblue {
+    color: deepskyblue;
+    height: 30px;
+}
+
+.button
+{
+    width:200px;
+    height:80px;
+}
+.koteret {
+    color: yellow;font-size:50px;
+}
+.kategories 
+{
+    color: lightcyan;
+    font-size: 35px;
+}
+.heads {
+    color:lightgreen;
+    font-size: 30px;
+}
+.tableOptions{
+    border:thick;
+
+}
+.photow{
+    height:400px;
+
+}

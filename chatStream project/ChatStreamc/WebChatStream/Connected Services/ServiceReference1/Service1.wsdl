@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WcfServiceWCF/Service1/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WcfServiceWCF/Service1/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WcfServiceWCF/Service1/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfServiceWCF" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WcfServiceWCF/Service1/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteComment_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteComment" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteComment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCommentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertComment_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertComment" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertComment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertCommentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateComment_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateComment" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateComment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCommentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectCommentByPost_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectCommentByPost" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectCommentByPost_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectCommentByPostResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertUser" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectByUserID_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectByUserID" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectByUserID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectByUserIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectUserByUName_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectUserByUName" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectUserByUName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectUserByUNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUser" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUser" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SignUp_InputMessage">
+    <wsdl:part name="parameters" element="tns:SignUp" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SignUp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SignUpResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertFollow_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFollow" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertFollow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFollowResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteFollow_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFollow" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteFollow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFollowResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectFollowed_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectFollowed" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectFollowed_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectFollowedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsFollowing_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsFollowing" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsFollowing_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsFollowingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertFriend_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFriend" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertFriend_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFriendResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteFriend_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFriend" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteFriend_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFriendResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AreFriends_InputMessage">
+    <wsdl:part name="parameters" element="tns:AreFriends" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AreFriends_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AreFriendsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectFriend_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectFriend" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectFriend_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectFriendResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectRecivedReq_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectRecivedReq" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectRecivedReq_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectRecivedReqResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectUserFriends_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectUserFriends" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectUserFriends_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectUserFriendsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ApproveFriend_InputMessage">
+    <wsdl:part name="parameters" element="tns:ApproveFriend" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ApproveFriend_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ApproveFriendResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertLike_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLike" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertLike_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLikeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteLike_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteLike" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteLike_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteLikeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CountLikes_InputMessage">
+    <wsdl:part name="parameters" element="tns:CountLikes" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CountLikes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CountLikesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsLiked_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsLiked" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsLiked_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsLikedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertPost_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertPost" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertPost_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertPostResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletePost_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePost" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletePost_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePostResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdatePost_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePost" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdatePost_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePostResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectUserFeed_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectUserFeed" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectUserFeed_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectUserFeedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectMyFeed_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectMyFeed" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectMyFeed_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectMyFeedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectPostsByUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectPostsByUser" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectPostsByUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectPostsByUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectPostsByUID_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectPostsByUID" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectPostsByUID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectPostsByUIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectPostByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectPostByID" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectPostByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectPostByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertDM_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDM" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertDM_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDMResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllDMChats_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllDMChats" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllDMChats_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllDMChatsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectAllDMsChat_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectAllDMsChat" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectAllDMsChat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectAllDMsChatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AreChatting_InputMessage">
+    <wsdl:part name="parameters" element="tns:AreChatting" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AreChatting_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AreChattingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectUnSeenDM_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectUnSeenDM" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectUnSeenDM_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectUnSeenDMResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetChatsDMUpdateState_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetChatsDMUpdateState" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetChatsDMUpdateState_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetChatsDMUpdateStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGroupByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupByID" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGroupByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGroupsByName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupsByName" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGroupsByName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupsByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertGroup" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGroup" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGroup" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertGMemeber_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertGMemeber" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertGMemeber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertGMemeberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGMember_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGMember" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGMember_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGMemberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGMemberStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGMemberStatus" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGMemberStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGMemberStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGroupMembers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupMembers" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGroupMembers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupMembersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectGroupAdmins_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectGroupAdmins" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectGroupAdmins_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectGroupAdminsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectGroupNonAdmins_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectGroupNonAdmins" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectGroupNonAdmins_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectGroupNonAdminsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsGroupAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsGroupAdmin" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsGroupAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsGroupAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsGroupMember_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsGroupMember" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsGroupMember_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsGroupMemberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertGMessage_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertGMessage" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertGMessage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertGMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGMessage_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGMessage" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGMessage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGMessage_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGMessage" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGMessage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectGMessages_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectGMessages" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectGMessages_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectGMessagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGMessages_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGMessages" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGMessages_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGMessagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetUnSeenGMessages_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUnSeenGMessages" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetUnSeenGMessages_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUnSeenGMessagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetMyGroups_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMyGroups" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetMyGroups_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMyGroupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetMyGroupsUpdateState_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMyGroupsUpdateState" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetMyGroupsUpdateState_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMyGroupsUpdateStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchPublicGroups_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPublicGroups" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchPublicGroups_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPublicGroupsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteComment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteComment" message="tns:IService1_DeleteComment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteCommentResponse" message="tns:IService1_DeleteComment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertComment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertComment" message="tns:IService1_InsertComment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertCommentResponse" message="tns:IService1_InsertComment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateComment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateComment" message="tns:IService1_UpdateComment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateCommentResponse" message="tns:IService1_UpdateComment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectCommentByPost">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectCommentByPost" message="tns:IService1_SelectCommentByPost_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectCommentByPostResponse" message="tns:IService1_SelectCommentByPost_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertUser" message="tns:IService1_InsertUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertUserResponse" message="tns:IService1_InsertUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Login" message="tns:IService1_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LoginResponse" message="tns:IService1_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectByUserID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectByUserID" message="tns:IService1_SelectByUserID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectByUserIDResponse" message="tns:IService1_SelectByUserID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectUserByUName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectUserByUName" message="tns:IService1_SelectUserByUName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectUserByUNameResponse" message="tns:IService1_SelectUserByUName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateUser" message="tns:IService1_UpdateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateUserResponse" message="tns:IService1_UpdateUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteUser" message="tns:IService1_DeleteUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteUserResponse" message="tns:IService1_DeleteUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SignUp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SignUp" message="tns:IService1_SignUp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SignUpResponse" message="tns:IService1_SignUp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertFollow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertFollow" message="tns:IService1_InsertFollow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertFollowResponse" message="tns:IService1_InsertFollow_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFollow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteFollow" message="tns:IService1_DeleteFollow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteFollowResponse" message="tns:IService1_DeleteFollow_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectFollowed">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectFollowed" message="tns:IService1_SelectFollowed_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectFollowedResponse" message="tns:IService1_SelectFollowed_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsFollowing">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/IsFollowing" message="tns:IService1_IsFollowing_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/IsFollowingResponse" message="tns:IService1_IsFollowing_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertFriend">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertFriend" message="tns:IService1_InsertFriend_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertFriendResponse" message="tns:IService1_InsertFriend_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFriend">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteFriend" message="tns:IService1_DeleteFriend_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteFriendResponse" message="tns:IService1_DeleteFriend_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AreFriends">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AreFriends" message="tns:IService1_AreFriends_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AreFriendsResponse" message="tns:IService1_AreFriends_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectFriend">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectFriend" message="tns:IService1_SelectFriend_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectFriendResponse" message="tns:IService1_SelectFriend_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectRecivedReq">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectRecivedReq" message="tns:IService1_SelectRecivedReq_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectRecivedReqResponse" message="tns:IService1_SelectRecivedReq_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectUserFriends">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectUserFriends" message="tns:IService1_SelectUserFriends_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectUserFriendsResponse" message="tns:IService1_SelectUserFriends_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ApproveFriend">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ApproveFriend" message="tns:IService1_ApproveFriend_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ApproveFriendResponse" message="tns:IService1_ApproveFriend_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertLike">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertLike" message="tns:IService1_InsertLike_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertLikeResponse" message="tns:IService1_InsertLike_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLike">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteLike" message="tns:IService1_DeleteLike_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteLikeResponse" message="tns:IService1_DeleteLike_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CountLikes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/CountLikes" message="tns:IService1_CountLikes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CountLikesResponse" message="tns:IService1_CountLikes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsLiked">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/IsLiked" message="tns:IService1_IsLiked_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/IsLikedResponse" message="tns:IService1_IsLiked_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertPost">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertPost" message="tns:IService1_InsertPost_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertPostResponse" message="tns:IService1_InsertPost_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePost">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeletePost" message="tns:IService1_DeletePost_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeletePostResponse" message="tns:IService1_DeletePost_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePost">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdatePost" message="tns:IService1_UpdatePost_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdatePostResponse" message="tns:IService1_UpdatePost_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectUserFeed">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectUserFeed" message="tns:IService1_SelectUserFeed_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectUserFeedResponse" message="tns:IService1_SelectUserFeed_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectMyFeed">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectMyFeed" message="tns:IService1_SelectMyFeed_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectMyFeedResponse" message="tns:IService1_SelectMyFeed_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectPostsByUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectPostsByUser" message="tns:IService1_SelectPostsByUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectPostsByUserResponse" message="tns:IService1_SelectPostsByUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectPostsByUID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectPostsByUID" message="tns:IService1_SelectPostsByUID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectPostsByUIDResponse" message="tns:IService1_SelectPostsByUID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectPostByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectPostByID" message="tns:IService1_SelectPostByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectPostByIDResponse" message="tns:IService1_SelectPostByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertDM">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertDM" message="tns:IService1_InsertDM_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertDMResponse" message="tns:IService1_InsertDM_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDMChats">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAllDMChats" message="tns:IService1_GetAllDMChats_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAllDMChatsResponse" message="tns:IService1_GetAllDMChats_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectAllDMsChat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectAllDMsChat" message="tns:IService1_SelectAllDMsChat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectAllDMsChatResponse" message="tns:IService1_SelectAllDMsChat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AreChatting">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AreChatting" message="tns:IService1_AreChatting_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AreChattingResponse" message="tns:IService1_AreChatting_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectUnSeenDM">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectUnSeenDM" message="tns:IService1_SelectUnSeenDM_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectUnSeenDMResponse" message="tns:IService1_SelectUnSeenDM_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChatsDMUpdateState">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetChatsDMUpdateState" message="tns:IService1_GetChatsDMUpdateState_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetChatsDMUpdateStateResponse" message="tns:IService1_GetChatsDMUpdateState_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGroupByID" message="tns:IService1_GetGroupByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGroupByIDResponse" message="tns:IService1_GetGroupByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupsByName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGroupsByName" message="tns:IService1_GetGroupsByName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGroupsByNameResponse" message="tns:IService1_GetGroupsByName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertGroup" message="tns:IService1_InsertGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertGroupResponse" message="tns:IService1_InsertGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateGroup" message="tns:IService1_UpdateGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateGroupResponse" message="tns:IService1_UpdateGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteGroup" message="tns:IService1_DeleteGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteGroupResponse" message="tns:IService1_DeleteGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertGMemeber">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertGMemeber" message="tns:IService1_InsertGMemeber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertGMemeberResponse" message="tns:IService1_InsertGMemeber_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGMember">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteGMember" message="tns:IService1_DeleteGMember_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteGMemberResponse" message="tns:IService1_DeleteGMember_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGMemberStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateGMemberStatus" message="tns:IService1_UpdateGMemberStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateGMemberStatusResponse" message="tns:IService1_UpdateGMemberStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupMembers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGroupMembers" message="tns:IService1_GetGroupMembers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGroupMembersResponse" message="tns:IService1_GetGroupMembers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectGroupAdmins">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectGroupAdmins" message="tns:IService1_SelectGroupAdmins_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectGroupAdminsResponse" message="tns:IService1_SelectGroupAdmins_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectGroupNonAdmins">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectGroupNonAdmins" message="tns:IService1_SelectGroupNonAdmins_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectGroupNonAdminsResponse" message="tns:IService1_SelectGroupNonAdmins_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsGroupAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/IsGroupAdmin" message="tns:IService1_IsGroupAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/IsGroupAdminResponse" message="tns:IService1_IsGroupAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsGroupMember">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/IsGroupMember" message="tns:IService1_IsGroupMember_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/IsGroupMemberResponse" message="tns:IService1_IsGroupMember_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertGMessage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertGMessage" message="tns:IService1_InsertGMessage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertGMessageResponse" message="tns:IService1_InsertGMessage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGMessage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteGMessage" message="tns:IService1_DeleteGMessage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteGMessageResponse" message="tns:IService1_DeleteGMessage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGMessage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateGMessage" message="tns:IService1_UpdateGMessage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateGMessageResponse" message="tns:IService1_UpdateGMessage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectGMessages">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectGMessages" message="tns:IService1_SelectGMessages_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectGMessagesResponse" message="tns:IService1_SelectGMessages_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGMessages">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGMessages" message="tns:IService1_GetGMessages_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGMessagesResponse" message="tns:IService1_GetGMessages_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUnSeenGMessages">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetUnSeenGMessages" message="tns:IService1_GetUnSeenGMessages_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetUnSeenGMessagesResponse" message="tns:IService1_GetUnSeenGMessages_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMyGroups">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetMyGroups" message="tns:IService1_GetMyGroups_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetMyGroupsResponse" message="tns:IService1_GetMyGroups_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMyGroupsUpdateState">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetMyGroupsUpdateState" message="tns:IService1_GetMyGroupsUpdateState_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetMyGroupsUpdateStateResponse" message="tns:IService1_GetMyGroupsUpdateState_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchPublicGroups">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SearchPublicGroups" message="tns:IService1_SearchPublicGroups_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SearchPublicGroupsResponse" message="tns:IService1_SearchPublicGroups_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteComment">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteComment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertComment">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertComment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateComment">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateComment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectCommentByPost">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectCommentByPost" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUser">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/IService1/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectByUserID">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectByUserID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectUserByUName">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectUserByUName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SignUp">
+      <soap:operation soapAction="http://tempuri.org/IService1/SignUp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertFollow">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertFollow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFollow">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteFollow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectFollowed">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectFollowed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsFollowing">
+      <soap:operation soapAction="http://tempuri.org/IService1/IsFollowing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertFriend">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertFriend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFriend">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteFriend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AreFriends">
+      <soap:operation soapAction="http://tempuri.org/IService1/AreFriends" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectFriend">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectFriend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectRecivedReq">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectRecivedReq" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectUserFriends">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectUserFriends" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveFriend">
+      <soap:operation soapAction="http://tempuri.org/IService1/ApproveFriend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLike">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertLike" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLike">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteLike" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CountLikes">
+      <soap:operation soapAction="http://tempuri.org/IService1/CountLikes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsLiked">
+      <soap:operation soapAction="http://tempuri.org/IService1/IsLiked" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertPost">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertPost" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePost">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeletePost" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePost">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdatePost" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectUserFeed">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectUserFeed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectMyFeed">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectMyFeed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectPostsByUser">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectPostsByUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectPostsByUID">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectPostsByUID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectPostByID">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectPostByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertDM">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertDM" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDMChats">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAllDMChats" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectAllDMsChat">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectAllDMsChat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AreChatting">
+      <soap:operation soapAction="http://tempuri.org/IService1/AreChatting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectUnSeenDM">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectUnSeenDM" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChatsDMUpdateState">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetChatsDMUpdateState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupByID">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGroupByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupsByName">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGroupsByName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertGroup">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGroup">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroup">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertGMemeber">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertGMemeber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGMember">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteGMember" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGMemberStatus">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateGMemberStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupMembers">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGroupMembers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectGroupAdmins">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectGroupAdmins" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectGroupNonAdmins">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectGroupNonAdmins" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsGroupAdmin">
+      <soap:operation soapAction="http://tempuri.org/IService1/IsGroupAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsGroupMember">
+      <soap:operation soapAction="http://tempuri.org/IService1/IsGroupMember" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertGMessage">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertGMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGMessage">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteGMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGMessage">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateGMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectGMessages">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectGMessages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGMessages">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGMessages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUnSeenGMessages">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetUnSeenGMessages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMyGroups">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetMyGroups" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMyGroupsUpdateState">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetMyGroupsUpdateState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchPublicGroups">
+      <soap:operation soapAction="http://tempuri.org/IService1/SearchPublicGroups" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfServiceWCF/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,97 @@
+﻿<Application x:Class="ChatStream.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ChatStream"
+             StartupUri="Login.xaml">
+
+
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="SR_Buttons" TargetType="Button">
+                <Style.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+
+                    </Style>
+                </Style.Resources>
+                <Setter Property="BorderBrush" Value="Transparent" />
+                <Setter Property="Foreground" Value="Black" />
+                <Setter Property="FontSize" Value="25" />
+                <Setter Property="Height" Value="46" />
+                <Setter Property="Margin" Value="10, 2" />
+                <Setter Property="BorderThickness" Value="2" />
+                <Setter Property="Background" Value="Transparent" />
+            </Style>
+            <Style x:Key="AVR_Button" TargetType="Button">
+                <Style.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Style.Resources>
+                <Setter Property="Foreground" Value="LightYellow" />
+                <Setter Property="FontSize" Value="30" />
+                <Setter Property="Height" Value="60" />
+                <Setter Property="Width" Value="120" />
+                <Setter Property="Margin" Value="10" />
+                <Setter Property="BorderThickness" Value="2" />
+                <Setter Property="Background" Value="#00B1F9" />
+            </Style>
+            <Style x:Key="MainBackground1" TargetType="Rectangle">
+                <Setter Property="Fill">
+                    <Setter.Value>
+                        <RadialGradientBrush GradientOrigin="1,1" 
+          Center="0.5,0.5" RadiusX="0.9" RadiusY="1.2">
+                            <GradientStop Color="#f2cc63" Offset="0.0" />
+                            <GradientStop Color="#6393f2" Offset="1" />
+                        </RadialGradientBrush>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style x:Key="MainBackground2" TargetType="Rectangle">
+                <Setter Property="Fill">
+                    <Setter.Value>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                            <GradientStop Color="#FFEB84" Offset="0.0" />
+                            <GradientStop Color="#FFAFAF" Offset="0.50" />
+                            <GradientStop Color="#AFBFFF" Offset="1" />
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style x:Key="textS" TargetType="TextBlock">
+                <Setter Property="FontSize" Value="30" />
+                <Setter Property="Foreground" Value="LightYellow" />
+                <Setter Property="VerticalAlignment" Value="Center" />
+                <Setter Property="HorizontalAlignment" Value="Center" />
+            </Style>
+            <Style x:Key="MainBackground" TargetType="Rectangle">
+                <Setter Property="Fill">
+                    <Setter.Value>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                            <GradientStop Color="#9791ff" Offset="0.2" />
+
+                            <GradientStop Color="#656dfc" Offset="0.7" />
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style x:Key="RButtons" TargetType="Button">
+                <Style.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+
+                    </Style>
+                </Style.Resources>
+                <Setter Property="BorderBrush" Value="Transparent" />
+                <Setter Property="Foreground" Value="Black" />
+                <Setter Property="FontSize" Value="30" />
+                <Setter Property="Height" Value="46" />
+                <Setter Property="Margin" Value="10, 2" />
+                <Setter Property="BorderThickness" Value="2" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+
+

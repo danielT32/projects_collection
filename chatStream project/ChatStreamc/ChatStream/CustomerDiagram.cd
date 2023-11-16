@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChatStream.App" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.ChatsShow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAABBQAAAEAEIAAABAFAAAAAEgAQAAgAAAAAAIU=</HashCode>
+      <FileName>ChatsShow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.ChatWithUser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAgwAAAAAAASgAIAAAAAAAAAQQ=</HashCode>
+      <FileName>ChatWithUser.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.CommentView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAABAAAAAAAAAAQgAAAAAAAAAAAAU=</HashCode>
+      <FileName>CommentView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.CreatePost" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAABAAgAAAAAAAACIAAA=</HashCode>
+      <FileName>CreatePost.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.Feed" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAgAAABAAAAAAAAAAAAAAAAgAQAAAAAAAAAAU=</HashCode>
+      <FileName>Feed.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.UserButton" Collapsed="true">
+    <Position X="28" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Feed.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.EntityButton" Collapsed="true">
+    <Position X="29.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Feed.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.FriendListShow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAIAAAAAAAAAAAAAAAAAAAAAAAAAgAQAAAAAAAAAAQ=</HashCode>
+      <FileName>FriendListShow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.FriendShow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAAAAAAAAAAAAAAAAAABAAAkAgAAAAAAAAAAAQU=</HashCode>
+      <FileName>FriendShow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.GroupInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAIUABBAgAACAAAAAIAIAAAAEAAAogYAAEgAAAAAAU=</HashCode>
+      <FileName>GroupInfo.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.Login" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAEAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Login.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEABAAAAAAAAAAAAAAAAAACBACAAAgAAAAAAAAAAAUA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.OpenMenu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OpenMenu.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.PostView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAkEAAAAAAQAAAAAAgBAAAggAAAEIAAAAAAU=</HashCode>
+      <FileName>PostView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.Profile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAgAAAAAABAAAAQA=</HashCode>
+      <FileName>Profile.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.SignUp" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAgQAAAAQAAAAAAA=</HashCode>
+      <FileName>SignUp.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.UserFeed" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAAAAAgAAAAoAAAAIAAAABQAAEAgAIAAAAAAAAAQQ=</HashCode>
+      <FileName>UserFeed.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.ServiceReference1.CompositeType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAACAAAAAAAAAgAAAAAAkAAAAAAIQAAI=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.ServiceReference1.BaseEntity" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAgAAAAAAEAAAAAAIAAAA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ChatStream.ServiceReference1.Post" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAYgAAoAAAAAAAEAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.ServiceReference1.User" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAEICUgggAACAAAAAEEAAAAAAACAAAAAIAAGAA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.ServiceReference1.Follow" Collapsed="true">
+    <Position X="21.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgCAAAAAAAAAAAAAAAAAAAAAAEAIA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.ServiceReference1.Friend" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAACQAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.ServiceReference1.Like" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAEAAACAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.ServiceReference1.DMessage" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIgAAgAAAgAUAEACgAAAAAAIAAAAAACAAAQA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.ServiceReference1.Group" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAIAAigAAEAAAAAAAAAAAAAAIAAQAAAAAAAAA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.ServiceReference1.GMember" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABAEAAAAAAAAAAAAAAAQAAAAAAAAAAAAAIAABAAAA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.ServiceReference1.GMessage" Collapsed="true">
+    <Position X="23.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABAEAAIgAAgAAAAAAAEAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.ServiceReference1.Comment" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAIgAAgAAAAAAAEAAACAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.ServiceReference1.Service1Client" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>05giCIKAsVm1iHSlBIYlfgXojShTMWc3Y8CSs0cIaNk=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChatStream.Properties.Resources" Collapsed="true">
+    <Position X="29.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.Properties.Settings" Collapsed="true">
+    <Position X="33.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatStream.ChatWithGroup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAAAAAAAAAAAAAAAAgwAAAAAAASgAIAAAAAAAAAAQ=</HashCode>
+      <FileName>ChatWithGroup.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="ChatStream.ServiceReference1.IService1" Collapsed="true">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>05giCIKAsVm1iHSlBIYlfgXojShTMWc3Y8CSs0cIaNk=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChatStream.ServiceReference1.IService1Channel" Collapsed="true">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

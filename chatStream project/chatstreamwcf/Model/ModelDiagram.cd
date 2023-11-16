@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Model.BaseEntity" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Comment" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAgAAgAAAAIAAAAAACAAAAAgAAAAAAAAAAQA=</HashCode>
+      <FileName>Comment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.DMessage" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAgAAgQAAAIEAAAAgAAAAIAAAIAAAACAAAQA=</HashCode>
+      <FileName>DMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Follow" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAgCAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Follow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Friend" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACQAAAAEAAIAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Friend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.GMember" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABAEAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>GMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.GMessage" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAADAEAAAgAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>GMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Group" Collapsed="true">
+    <Position X="19" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAigAAAIoAAAAAAAgAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Group.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.InviteG" Collapsed="true">
+    <Position X="14.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InviteG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Like" Collapsed="true">
+    <Position X="17" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAQA=</HashCode>
+      <FileName>Like.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Post" Collapsed="true">
+    <Position X="12.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABDAAAAQgAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Post.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Request" Collapsed="true">
+    <Position X="8.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.UnSeenGM" Collapsed="true">
+    <Position X="10.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAASA=</HashCode>
+      <FileName>UnSeenGM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.User" Collapsed="true">
+    <Position X="21.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAQAEACEghAAgKIAAAAgAAAAAAAACAAAAAgAAEAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.EntityList" Collapsed="true">
+    <Position X="21.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAA=</HashCode>
+      <FileName>Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

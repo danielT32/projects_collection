@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="ChatStream.CreatePost"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ChatStream"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <Style x:Key="Post_Buttons" TargetType="Button">
+                <Style.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+
+                    </Style>
+                </Style.Resources>
+                <Setter Property="BorderBrush" Value="Transparent" />
+                <Setter Property="Foreground" Value="Black" />
+                <Setter Property="FontSize" Value="30" />
+                <Setter Property="Height" Value="46" />
+                <Setter Property="Margin" Value="10, 2" />
+                <Setter Property="BorderThickness" Value="2" />
+
+            </Style>
+
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid Background="LightBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <WrapPanel Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <TextBox TextWrapping="Wrap" Grid.Row="0" x:Name="Content" Margin="5" Background="White" />
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+
+            <ComboBox Height="30" Width="100" VerticalContentAlignment="Top" x:Name="publicity">
+                <ComboBoxItem Tag="Public" Content="Public"  />
+                <ComboBoxItem Tag="Private" Content="Private" />
+            </ComboBox>
+            <WrapPanel Grid.Column="1" HorizontalAlignment="Center">
+                <Button Click="CreateContent" Grid.Column="1" x:Name="Create1" Content=" Create " FontSize="25" Margin="10"/>
+                <Button Click="Cancel" Grid.Column="1" x:Name="CancelB" Content=" Cancel " FontSize="25" Margin="10"/>
+
+            </WrapPanel>
+
+            <ScrollViewer Grid.ColumnSpan="2" x:Name="CViewer" Grid.Row="1"  Visibility="Collapsed">
+                <ListView x:Name="Comments" >
+                    <TextBlock></TextBlock>
+                </ListView>
+            </ScrollViewer>
+
+        </Grid>
+    </Grid>
+</UserControl>

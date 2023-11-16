@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ModelView.ChangeEntity" Collapsed="true">
+    <Position X="26.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>BaseDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelView.BaseDB" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAEAAAAEQAAgACAABAAAAAlUAAAAAAAAAQEBSAAA=</HashCode>
+      <FileName>BaseDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelView.CommentDB" Collapsed="true">
+    <Position X="27.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAQCAAAAAAAAAAAAkEAAAAAAAAAAABCAAA=</HashCode>
+      <FileName>CommentDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelView.DMessageDB" Collapsed="true">
+    <Position X="20.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAACAgRCAAAAAAgAAAgAkEAAAACAgAAAAFCgBA=</HashCode>
+      <FileName>DMessageDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelView.FollowDB" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAQAAAAAAAAAAAAAkEAEAAAAgAAAABCAAA=</HashCode>
+      <FileName>FollowDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelView.FriendDB" Collapsed="true">
+    <Position X="25.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwgAEAAAACQAAAAAAAAAAAAAkEAAAACAAAAAABCAAA=</HashCode>
+      <FileName>FriendDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelView.GMemberDB" Collapsed="true">
+    <Position X="22.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAEBAAAAwAAAAAAAAAIAgCkEEAAAAAAAAAABCAAA=</HashCode>
+      <FileName>GMemberDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelView.GMessageDB" Collapsed="true">
+    <Position X="18" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAABAAQAAAAAAAAAAAAAkEAEAAAAAAAAABCIAA=</HashCode>
+      <FileName>GMessageDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelView.GroupDB" Collapsed="true">
+    <Position X="21.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQBCEAAAABQAAAAAAAAAQAAAkEAAAAAAAAAAABCAAA=</HashCode>
+      <FileName>GroupDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelView.LikeDB" Collapsed="true">
+    <Position X="27" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAgQCAAAAAAAAAAABkEAAAAAAAAAAABCAAA=</HashCode>
+      <FileName>LikeDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelView.PostDB" Collapsed="true">
+    <Position X="25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEYAAEAAACAQAEAAAAAAAAAAAkEAACAAAAAAIABCAAA=</HashCode>
+      <FileName>PostDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelView.UnSeenGMDB" Collapsed="true">
+    <Position X="18" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAQAAAAAAAAAAAAAkEAAAAAAAAAAABCAAA=</HashCode>
+      <FileName>UnSeenGMDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelView.UserDB" Collapsed="true">
+    <Position X="23.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABYAAEAAACASAAAAAAAAAAAAAkEAAgAAAAAAAABCAAA=</HashCode>
+      <FileName>UserDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="ModelView.CreateSql" Collapsed="true">
+    <Position X="24.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseDB.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

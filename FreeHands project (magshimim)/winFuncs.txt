@@ -1,0 +1,5 @@
+1 left
+2 playpause
+3 volumedown
+4 volumeup
+5 winleft

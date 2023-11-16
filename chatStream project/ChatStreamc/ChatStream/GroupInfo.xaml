@@ -1,0 +1,88 @@
+﻿<UserControl x:Class="ChatStream.GroupInfo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ChatStream"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <Style x:Key="RW_Buttons" TargetType="Button">
+                <Style.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+
+                    </Style>
+                </Style.Resources>
+                <Setter Property="BorderBrush" Value="Transparent" />
+                <Setter Property="Foreground" Value="Black" />
+                <Setter Property="FontSize" Value="25" />
+                <Setter Property="Height" Value="46" />
+                <Setter Property="Margin" Value="10, 2" />
+                <Setter Property="BorderThickness" Value="2" />
+                <Setter Property="Background" Value="White" />
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Button HorizontalAlignment="Left" Content="Back" Click="Back_Click" Style="{StaticResource AVR_Button}" Height="50" Width="80"/>
+            <WrapPanel Grid.Column="1">
+                <TextBox Grid.Column="1" x:Name="GNameTxt" BorderThickness="3" IsReadOnly="True" BorderBrush="Transparent" Foreground="White" Text="Group Name" FontSize="40" Background="Transparent"/>
+                <TextBlock Grid.Column="2" x:Name="PublicityDisplayText" Text="Publicity" Style="{StaticResource textS}" FontSize="20" VerticalAlignment="Bottom" />
+                <Button Grid.Column="3" x:Name="EditGroupName" Content="Edit" Style="{StaticResource RButtons}" Opacity="0.5" Background="#c08bfc" Padding="5" Click="EditGroupName_Click" Visibility="Collapsed"/>
+                <Button Grid.Column="3" x:Name="SaveGroupName" Content="Save" Style="{StaticResource RButtons}" Opacity="0.5" Background="#c08bfc" Padding="5" Click="SaveGroupName_Click" Visibility="Collapsed"/>
+
+            </WrapPanel>
+            </Grid>
+        <ScrollViewer Grid.Row="1" x:Name="MainScroll">
+            <StackPanel>
+
+                <WrapPanel>
+                    <TextBlock Style="{StaticResource textS}" Text="Members:" HorizontalAlignment="Left" Margin="20, 0"/>
+                    <Button Content="Refresh" Click="RefreshMembers_Click" Style="{StaticResource AVR_Button}" Height="50" />
+                    <Button Content="Chat" Click="OpenChat_Click" Style="{StaticResource AVR_Button}" Height="50" />
+                </WrapPanel>
+                <ScrollViewer Height="300">
+                    <StackPanel x:Name="MemberListStack">
+
+                    </StackPanel>
+                </ScrollViewer>
+                <WrapPanel x:Name="AdminsOptionPanel" Visibility="Collapsed">
+                    <Button x:Name="AddMemberBtn" Content="Add Member" Width="200" Style="{StaticResource RButtons}" Background="LightYellow" Click="AddMemberBtn_Click"/>
+                    <TextBlock Style="{StaticResource textS}" Text="Publicity:" HorizontalAlignment="Left"/>
+                    <Button x:Name="MakePublic_btn" Content="Make Public" Width="200" Style="{StaticResource RButtons}" Background="LightYellow" Click="MakePublic_btn_Click"/>
+                    <Button x:Name="MakePrivate_btn" Content="Make Private" Width="200" Style="{StaticResource RButtons}" Background="LightYellow" Click="MakePrivate_btn_Click"/>
+                </WrapPanel>
+                <StackPanel x:Name="MemberAddStack" Visibility="Collapsed">
+                    <WrapPanel>
+                        <TextBlock x:Name="DSerchTextShow" Text="Search user: " Margin="10" FontSize="30" TextAlignment="Center" Foreground="White"/>
+                        <TextBlock x:Name="GSerchTextShow"  Text="Search Group: " Margin="10" FontSize="30" TextAlignment="Center" Foreground="White" Visibility="Collapsed"/>
+                        <TextBox Width="200" FontSize="25" TextAlignment="Center" x:Name="USerach_TB" Margin="10" TextChanged="USerach_TB_TextChanged"/>
+                        <Button Style="{StaticResource AVR_Button}" Height="50" Width="180" Content="Clear Search" Click="Clear_Click" />
+                        <Button Style="{StaticResource AVR_Button}" Height="50" Width="100" Content="Close" Click="CloseAdd_Click" />
+
+                    </WrapPanel>
+                    <StackPanel x:Name="MemberAddStack_Results">
+                        
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+        
+    </Grid>
+</UserControl>

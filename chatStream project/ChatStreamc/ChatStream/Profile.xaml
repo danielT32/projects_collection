@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="ChatStream.Profile"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ChatStream"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonLS" TargetType="Button">
+                <Style.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Style.Resources>
+                <Setter Property="Foreground" Value="LightYellow" />
+                <Setter Property="FontSize" Value="27" />
+                <Setter Property="Height" Value="40" />
+                <Setter Property="Width" Value="120" />
+                <Setter Property="Margin" Value="10" />
+                <Setter Property="BorderThickness" Value="2" />
+                <Setter Property="Background" Value="#00B1F9" />
+            </Style>
+            <Style x:Key="TextBoxPForm" TargetType="TextBox">
+                <Setter Property="FontSize" Value="25" />
+                <Setter Property="Margin" Value="5" />
+                <Setter Property="Opacity" Value="0.55" />
+                <Setter Property="Height" Value="45" />
+                <Setter Property="IsReadOnly" Value="True" />
+                
+            </Style>
+
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+        <TextBox Grid.Column="1" Grid.Row="0"  x:Name="UName" Style="{StaticResource TextBoxPForm}" />
+        <TextBox Grid.Column="1" Grid.Row="1" Style="{StaticResource TextBoxPForm}" x:Name="FName"/>
+        <TextBox Grid.Column="1" Grid.Row="2" x:Name="Lname" Style="{StaticResource TextBoxPForm}"/>
+        <TextBox Grid.Column="1" Grid.Row="3" x:Name="Description" Style="{StaticResource TextBoxPForm}" Height="auto"/>
+        <TextBlock  Grid.Column="0" Grid.Row="0" Margin="1" Text="User Name" FontSize="30" Foreground="WhiteSmoke" TextAlignment="Center"/>
+        <TextBlock  Grid.Column="0" Grid.Row="1" Margin="1" Text="First Name" FontSize="30" Foreground="WhiteSmoke" TextAlignment="Center"/>
+            <TextBlock  Grid.Column="0" Grid.Row="2" Margin="1" Text="Last Name" FontSize="30" Foreground="WhiteSmoke" TextAlignment="Center"/>
+            <TextBlock  Grid.Column="0" Grid.Row="3" Margin="1" Text="Description" FontSize="30" Foreground="WhiteSmoke" TextAlignment="Center"/>
+        <Button x:Name="Edit" Content="Edit" Style="{StaticResource buttonLS}" Grid.Column="0" Grid.Row="4" Click="Edit_Click" />
+        <Button x:Name="Save" Content="Save" Style="{StaticResource buttonLS}" Grid.Column="1" Grid.Row="4" Visibility="Collapsed" Click="Save_Click" />
+    </Grid>
+</UserControl>

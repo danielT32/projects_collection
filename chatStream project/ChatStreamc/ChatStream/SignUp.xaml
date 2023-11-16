@@ -1,0 +1,83 @@
+﻿<Window x:Class="ChatStream.SignUp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatStream"
+        mc:Ignorable="d"
+        Title="SignUp" Height="450" Width="800">
+    <Window.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonLS" TargetType="Button">
+                <Style.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Style.Resources>
+                <Setter Property="Foreground" Value="LightYellow" />
+                <Setter Property="FontSize" Value="27" />
+                <Setter Property="Height" Value="40" />
+                <Setter Property="Width" Value="120" />
+                <Setter Property="Margin" Value="10" />
+                <Setter Property="BorderThickness" Value="2" />
+                <Setter Property="Background" Value="#00B1F9" />
+            </Style>
+
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+        <Rectangle Style="{StaticResource MainBackground}" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="10*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="20*" />
+
+            </Grid.RowDefinitions>
+            <Grid x:Name="Change" Grid.Row="0" Grid.Column="1"  >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="5*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <TextBlock Text="Sign Up" Grid.Row="0" FontSize="50" Foreground="White" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <TextBox Grid.Column="1" Grid.Row="0" Margin="5" FontSize="25" x:Name="UName" Opacity="0.55" Height="45"/>
+                    <PasswordBox Grid.Column="1" Grid.Row="1" Margin="5" FontSize="25" x:Name="UPassword1" Opacity="0.55" />
+                    <PasswordBox Grid.Column="1" Grid.Row="2" Margin="5" FontSize="25" x:Name="UPassword2" Opacity="0.55"  Height="45"/>
+                    <TextBox Grid.Column="1" Grid.Row="3" Margin="5" FontSize="25" x:Name="FName" Opacity="0.55"  Height="45"/>
+                    <TextBox Grid.Column="1" Grid.Row="4" Margin="5" FontSize="25" x:Name="Lname" Opacity="0.55"  Height="45"/>
+                    <TextBox Grid.Column="1" Grid.Row="5" Margin="5" FontSize="25" x:Name="EMail" Opacity="0.55"  Height="45"/>
+                    <TextBlock  Grid.Column="0" Grid.Row="0" Margin="1" Text="User Name" FontSize="30" Foreground="WhiteSmoke" TextAlignment="Center"/>
+                    <TextBlock  Grid.Column="0" Grid.Row="1" Margin="1" Text="Password" FontSize="30" Foreground="WhiteSmoke" TextAlignment="Center"/>
+                    <TextBlock  Grid.Column="0" Grid.Row="2" Margin="1" Text="Password again" FontSize="30" Foreground="WhiteSmoke" TextAlignment="Center"/>
+                    <TextBlock  Grid.Column="0" Grid.Row="3" Margin="1" Text="First Name" FontSize="30" Foreground="WhiteSmoke" TextAlignment="Center"/>
+                    <TextBlock  Grid.Column="0" Grid.Row="4" Margin="1" Text="Last Name" FontSize="30" Foreground="WhiteSmoke" TextAlignment="Center"/>
+                    <TextBlock  Grid.Column="0" Grid.Row="5" Margin="1" Text="Email" FontSize="30" Foreground="WhiteSmoke" TextAlignment="Center"/>
+                </Grid>
+                <WrapPanel Grid.Row="2" VerticalAlignment="Top" HorizontalAlignment="Center">
+                    <Button  Content="create user" Style="{StaticResource buttonLS}" Click="EnterBtn" Width="150" />
+                    <Button  Content="Login" Style="{StaticResource buttonLS}" Click="LoginW" />
+
+                </WrapPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

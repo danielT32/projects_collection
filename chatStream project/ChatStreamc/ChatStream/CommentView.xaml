@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="ChatStream.CommentView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ChatStream"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <Style x:Key="Post_Buttons" TargetType="Button">
+                <Style.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+
+                    </Style>
+                </Style.Resources>
+                <Setter Property="BorderBrush" Value="Transparent" />
+                <Setter Property="Foreground" Value="Black" />
+                <Setter Property="FontSize" Value="25" />
+                <Setter Property="Height" Value="46" />
+                <Setter Property="Width" Value="auto" />
+                <Setter Property="Margin" Value="10, 2" />
+                <Setter Property="BorderThickness" Value="2" />
+
+            </Style>
+
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+    <Grid Background="LightCyan">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <WrapPanel VerticalAlignment="Center">
+            <Button Style="{StaticResource Post_Buttons}" x:Name="CUName" Content="User Name" Click="UFeed" Background="Transparent"/>
+            <Button Style="{StaticResource Post_Buttons}" x:Name="Edit_B" Content="Edit" Background="Transparent" Click="Edit_B_Click" Visibility="Collapsed"/>
+            <Button Style="{StaticResource Post_Buttons}" x:Name="Save_B" Content="Save" Background="Transparent" Click="Save_B_Click" Visibility="Collapsed"/>
+        </WrapPanel>
+        <TextBox TextWrapping="Wrap" Grid.Row="1" x:Name="Content" Margin="10" Background="GhostWhite" IsReadOnly="True" FontSize="25"/>
+
+    </Grid>
+</UserControl>

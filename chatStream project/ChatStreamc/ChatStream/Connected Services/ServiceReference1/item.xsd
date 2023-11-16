@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Comment">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Content" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ID" type="xs:int" />
+          <xs:element minOccurs="0" name="Post" nillable="true" type="tns:Post" />
+          <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Comment" nillable="true" type="tns:Comment" />
+  <xs:complexType name="BaseEntity">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:element name="BaseEntity" nillable="true" type="tns:BaseEntity" />
+  <xs:complexType name="Post">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Content" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ID" type="xs:int" />
+          <xs:element minOccurs="0" name="IsPrivate" type="xs:boolean" />
+          <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Post" nillable="true" type="tns:Post" />
+  <xs:complexType name="User">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EntrDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Fname" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ID" type="xs:int" />
+          <xs:element minOccurs="0" name="Lname" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Uname" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="User" nillable="true" type="tns:User" />
+  <xs:complexType name="ArrayOfComment">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Comment" nillable="true" type="tns:Comment" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfComment" nillable="true" type="tns:ArrayOfComment" />
+  <xs:complexType name="ArrayOfUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="User" nillable="true" type="tns:User" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUser" nillable="true" type="tns:ArrayOfUser" />
+  <xs:complexType name="Follow">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Follower" nillable="true" type="tns:User" />
+          <xs:element minOccurs="0" name="Following" nillable="true" type="tns:User" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Follow" nillable="true" type="tns:Follow" />
+  <xs:complexType name="ArrayOfFollow">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Follow" nillable="true" type="tns:Follow" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFollow" nillable="true" type="tns:ArrayOfFollow" />
+  <xs:complexType name="Friend">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Approved" type="xs:boolean" />
+          <xs:element minOccurs="0" name="User1" nillable="true" type="tns:User" />
+          <xs:element minOccurs="0" name="User2" nillable="true" type="tns:User" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Friend" nillable="true" type="tns:Friend" />
+  <xs:complexType name="ArrayOfFriend">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Friend" nillable="true" type="tns:Friend" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFriend" nillable="true" type="tns:ArrayOfFriend" />
+  <xs:complexType name="Like">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Post" nillable="true" type="tns:Post" />
+          <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Like" nillable="true" type="tns:Like" />
+  <xs:complexType name="ArrayOfPost">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Post" nillable="true" type="tns:Post" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPost" nillable="true" type="tns:ArrayOfPost" />
+  <xs:complexType name="DMessage">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Content" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DestUser" nillable="true" type="tns:User" />
+          <xs:element minOccurs="0" name="ID" type="xs:int" />
+          <xs:element minOccurs="0" name="Seen" type="xs:boolean" />
+          <xs:element minOccurs="0" name="SourceUser" nillable="true" type="tns:User" />
+          <xs:element minOccurs="0" name="Time" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DMessage" nillable="true" type="tns:DMessage" />
+  <xs:complexType name="ArrayOfDMessage">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DMessage" nillable="true" type="tns:DMessage" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDMessage" nillable="true" type="tns:ArrayOfDMessage" />
+  <xs:complexType name="Group">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GNname" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ID" type="xs:int" />
+          <xs:element minOccurs="0" name="Publicity" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Group" nillable="true" type="tns:Group" />
+  <xs:complexType name="ArrayOfGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Group" nillable="true" type="tns:Group" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGroup" nillable="true" type="tns:ArrayOfGroup" />
+  <xs:complexType name="GMember">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Admin" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Group" nillable="true" type="tns:Group" />
+          <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GMember" nillable="true" type="tns:GMember" />
+  <xs:complexType name="ArrayOfGMember">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GMember" nillable="true" type="tns:GMember" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGMember" nillable="true" type="tns:ArrayOfGMember" />
+  <xs:complexType name="GMessage">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Content" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Group" nillable="true" type="tns:Group" />
+          <xs:element minOccurs="0" name="ID" type="xs:int" />
+          <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GMessage" nillable="true" type="tns:GMessage" />
+  <xs:complexType name="ArrayOfGMessage">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GMessage" nillable="true" type="tns:GMessage" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGMessage" nillable="true" type="tns:ArrayOfGMessage" />
+</xs:schema>

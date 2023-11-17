@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public abstract class BaseEntity
+    public abstract class BaseEntity 
     {
     }
     public class EntityList : BaseEntity

@@ -44,10 +44,8 @@
     <Compile Include="Base.cs" />
     <Compile Include="Comment.cs" />
     <Compile Include="DMessage.cs" />
-    <Compile Include="DMReq.cs" />
     <Compile Include="Follow.cs" />
     <Compile Include="Friend.cs" />
-    <Compile Include="GBlocked.cs" />
     <Compile Include="GMember.cs" />
     <Compile Include="GMessage.cs" />
     <Compile Include="Group.cs" />
@@ -55,7 +53,6 @@
     <Compile Include="Like.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Request.cs" />
     <Compile Include="UnSeenGM.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>

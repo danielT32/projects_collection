@@ -4,10 +4,15 @@ import time
 import math
 import pyautogui
 
+#skin color for ycrcb filter
 lower_ycrcb = np.array([0, 140, 50], dtype=np.uint8)
 upper_ycrcb = np.array([255, 173, 130], dtype=np.uint8)
 
+MIN_DISTANCE_FINGERS = 15
+MAX_HAND_RADIUS = 200
+MIN_HAND_RADIUS = 40
 
+#hand detection class
 class HandDetector:
     def __init__(self, num_frames=5, threshold=0.5):
         self.queue = []
@@ -129,15 +134,14 @@ def removeCloseAndDuplicatePoints(finger_points):
                 continue
 
             distance = math.sqrt((i[0] - j[0]) ** 2 + (i[1] - j[1]) ** 2)
-            if distance < 15:
+            if distance < MIN_DISTANCE_FINGERS:
                 error_list.append(i)
                 error_list.append(j)
 
     error_list = removeDuplicates(error_list)
     error_list = error_list[::2]
-    fixed_finger_points = finger_points
     for points in error_list:
-        fixed_finger_points.remove(points)
+        finger_points.remove(points)
     return finger_points
 
 
@@ -226,7 +230,7 @@ def main():
                 # Check countur for hand
                 hand_circle = ((int(x), int(y)), int(radius))
 
-                if 40 < radius < 200 and 0.7 > detector.black_pixel_ratio(mask, hand_circle) > 0.3:
+                if MIN_HAND_RADIUS < radius < MAX_HAND_RADIUS and 0.7 > detector.black_pixel_ratio(mask, hand_circle) > 0.3:
                     cv2.circle(frame, (int(x), int(y)), 7, (0, 255, 0), -1)  # center of hand
                     cv2.circle(frame, (int(x), int(y)), int(radius), (0, 255, 255), 2)  # around the hand
                     cv2.drawContours(frame, [hull], 0, (0, 0, 255), 2)
